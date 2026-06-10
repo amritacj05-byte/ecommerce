@@ -1,0 +1,48 @@
+/* Navbar */
+.navbar {
+    background: linear-gradient(135deg, #ff4d94, #ff80bf);
+    padding: 12px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Brand */
+.navbar-brand {
+    color: white !important;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.navbar-nav .nav-link:hover {
+    background-color: white;
+    color: #ff4d94 !important;
+    transform: translateY(-2px);
+}
+
+/* Active Link */
+.navbar-nav .nav-link.active {
+    background-color: white;
+    color: #ff4d94 !important;
+    font-weight: bold;
+}
+
+/* Mobile Toggle Button */
+.navbar-toggler {
+    border: 2px solid white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
